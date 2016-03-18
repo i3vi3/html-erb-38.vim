@@ -8,6 +8,7 @@ endfunction
 
 function! htmlerb38#view()
     call OpenBrowser expand("%:r")
+endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
