@@ -6,8 +6,11 @@ let g:loaded_htmlerb38 = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! HtmlErb38Compile
+command! HtmlErbCompile
     \ call htmlerb38#compile()
+
+command! HtmlErbView
+    \ call htmlerb38#view()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
