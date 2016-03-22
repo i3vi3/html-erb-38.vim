@@ -17,7 +17,7 @@ When a file named *.html.erb is loaded, this plugin adds two commands and defaul
     Default key mapping: **\<LocalLeader\>ll**
 
     This command QuickRuns *.html.erb. If successful, the result is put in an html file.
-    the filename of html is obtained by removing ".erb" from the current filename.
+    The filename of the html is obtained by removing ".erb" from the current filename.
     (e.g. main.html.erb -> main.html)
 
  - :HtmlErbView
